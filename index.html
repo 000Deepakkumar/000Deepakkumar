@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #f3ebe4;
+    }
+
+    .main {
+      background-color: white;
+      width: 40%;
+      display: inline-flex;
+      margin: 7% 20% auto 24%;
+      border-radius: 5%;
+    }
+
+    img {
+      border-bottom-left-radius: 5%;
+      border-top-left-radius: 5%;
+      width: 50%;
+    }
+
+    .right {
+      width: 50%;
+    }
+
+    p {
+      margin: 5% 0 5% 5%;
+    }
+
+    .e {
+      padding: 4% 10%;
+      background-color: #3c8268;
+      margin: 3% auto;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: larger;
+      width: 60%;
+      height: 4%;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+    .img {
+      width: 15px;
+      margin-right: 5px;
+    }
+
+    .d {
+      display: inline-flex;
+      margin-left: 7%  ;
+    }
+
+    #yes {
+
+      color: #3c8268;
+      font-size: 30px;
+    }
+    #no{
+      margin:10% 0 0 10%;
+      font-size: 15px;
+      color: #a6a9ad;
+    }
+    #c{
+      margin:5% 0 0 10%;
+      font-size: 19px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #a6a9ad;
+    }
+    #b{
+      font-size: 40px;
+      margin: 5% 5% 0 10%;
+    }
+    #a{
+      margin: 10% 0 0 10%;
+      font-size: 15px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <img src="images/image-product-desktop.jpg">
+    <div class="right">
+      <p id="a">P E R F U M E</p>
+
+      <p id="b"><b>Gabrielle Essence Eau De Parfum</b></p>
+
+      <p id="c">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.</p>
+
+      <div class="d">
+        <p id="yes">$149.99</p>
+        <strike id="no">$169.99</strike>
+      </div>
+      <a href="#">
+      <span class="e" style="display: block;">
+        <img class="img" src="images/icon-cart.svg ">Add to Cart
+      </span></a>
+    </div>
+  </div>
+</body>
+
+</html>
